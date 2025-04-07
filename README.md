@@ -1,62 +1,60 @@
 
-# 🎨 Color Brightness Analyzer
+# Brightest Color Finder
 
-This project analyzes a list of color hex codes, determines the **brightest color**, and fetches its **CSS color name** via an online API. It also includes a robust testing suite to validate the logic.
-
----
-
-## 📌 Features
-
-- Parse and validate hex color codes
-- Convert to RGB format
-- Calculate perceived brightness using the formula:
-  ```
-  √(0.241 * R² + 0.691 * G² + 0.068 * B²)
-  ```
-- Identify the brightest color from the list
-- Fetch the CSS name of the color from an online API
-- Built-in unit tests for:
-  - Color parsing
-  - Brightness calculation
-  - Full analysis workflow
+This project finds the **brightest color** from a list of hex color codes.  
+It also gives you the name of that color using an online API.
 
 ---
 
-## 🧠 Algorithm Flowchart
+## What It Does
 
-<img src="https://raw.githubusercontent.com/alperenuckun/brightest_color_finder/main/Algorithm%20Flowchart.svg" width="800"/>>
+- Takes a list of hex color codes (like #FFAA33).
+- Converts them into RGB values.
+- Calculates how bright each color is.
+- Finds the one with the **highest brightness**.
+- Gets the name of the color using an online color name API.
 
 ---
 
-## 🚀 How to Run
+## How the Algorithm Works
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/kullaniciAdi/repoAdi.git
-   cd repoAdi
+1. It removes the `#` from each hex code.
+2. Converts the hex code to red, green, and blue values (R, G, B).
+3. Uses this formula to calculate brightness:
+
+   ```
+   √(0.241 * R² + 0.691 * G² + 0.068 * B²)
    ```
 
-2. Install dependencies (optional, only if you're using a virtual environment):
+4. Compares all brightness values and picks the brightest color.
+5. It then asks an API: “What’s the name of this color?”
+
+---
+
+## Algorithm Flowchart
+
+<img src="https://raw.githubusercontent.com/alperenuckun/brightest_color_finder/main/Algorithm%20Flowchart.svg" width="800"/>
+
+---
+
+## ▶How to Use
+
+1. Clone the project:
    ```bash
-   pip install -r requirements.txt
+   git clone https://github.com/alperenuckun/brightest_color_finder.git
+   cd brightest_color_finder
    ```
 
-3. Run the script:
+2. Run the Python file:
    ```bash
    python color_analyzer.py
    ```
 
-4. Run the tests:
-   ```bash
-   python color_analyzer.py
-   ```
-
 ---
 
-## 🧪 Sample Output
+## Example Output
 
 ```
-Color Analysis Results:
 Total colors provided  : 5
 Valid colors parsed     : 5
 Brightest color         : #FFFFFF (R=255, G=255, B=255)
@@ -66,28 +64,10 @@ Brightness value        : 255.00
 
 ---
 
-## 📂 File Structure
+## Color Name API
 
-```
-├── color_analyzer.py       # Main script with analysis logic and tests
-├── flowchart.svg           # Algorithm flowchart
-└── README.md               # Project description
-```
+We use this API to get color names:  
+🔗 https://csscolorsapi.com/
 
 ---
 
-## 🌐 API Used
-
-- [CSS Colors API](https://csscolorsapi.com/) — used to get the human-readable name of a color
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License. Feel free to use, modify, and share it.
-
----
-
-## 🙌 Contributions
-
-Contributions and suggestions are always welcome! Feel free to fork the repo and submit a pull request.
