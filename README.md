@@ -24,7 +24,7 @@ This project analyzes a list of color hex codes, determines the **brightest colo
 
 ## 🧠 Algorithm Flowchart
 
-<img src="https://raw.githubusercontent.com/kullaniciAdi/repoAdi/main/flowchart.svg" width="800"/>
+<img src="https://raw.githubusercontent.com/alperenuckun/brightest_color_finder/main/Algorithm%20Flowchart.svg" width="800"/>>
 
 ---
 
