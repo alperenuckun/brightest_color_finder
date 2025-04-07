@@ -11,7 +11,7 @@ It also gives you the name of that color using an online API.
 - Takes a list of hex color codes (like #FFAA33).
 - Converts them into RGB values.
 - Calculates how bright each color is.
-- Finds the one with the **highest brightness**.
+- Finds the one with the highest brightness
 - Gets the name of the color using an online color name API.
 
 ---
@@ -42,12 +42,12 @@ It also gives you the name of that color using an online API.
 1. Clone the project:
    ```bash
    git clone https://github.com/alperenuckun/brightest_color_finder.git
-   cd brightest_color_finder
+   cd brightest_color_finder.
    ```
 
 2. Run the Python file:
    ```bash
-   python color_analyzer.py
+   python brightest_color_finder.py
    ```
 
 ---
@@ -55,11 +55,22 @@ It also gives you the name of that color using an online API.
 ## Example Output
 
 ```
+Color Analysis Results:
 Total colors provided  : 5
 Valid colors parsed     : 5
 Brightest color         : #FFFFFF (R=255, G=255, B=255)
-Color name              : White
+Color name              : Unknown
 Brightness value        : 255.00
+
+Running Test Suite...
+
+Skipping invalid color 'invalid': Hex code must be 6 characters long: invalid
+Test Results:
+Color Parsing          : Passed
+Brightness Calculation : Passed
+Full Workflow          : Passed
+
+All tests passed!
 ```
 
 ---
