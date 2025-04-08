@@ -47,10 +47,6 @@ Results saved to color_results.json
 
 ---
 
-## Installation
-
-Make sure Python **3.6+** is installed.
-
 ### Install dependencies:
 
 ```bash
