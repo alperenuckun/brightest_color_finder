@@ -60,7 +60,8 @@ pip install requests
 ### Download the script:
 
 ```bash
-wget https://raw.githubusercontent.com/yourusername/color-analyzer/main/color_analyzer.py
+wget https://raw.githubusercontent.com/alperenuckun/brightest_color_finder/main/brightest_color_finder_final.py
+
 ```
 
 ---
