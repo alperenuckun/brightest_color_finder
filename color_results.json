@@ -1,0 +1,116 @@
+{
+  "total_colors": 139,
+  "analysis_date": "2025-04-08 19:21:01",
+  "colors": [
+    {
+      "hex": "#808000",
+      "rgb": [
+        128,
+        128,
+        0
+      ],
+      "brightness": 0.445,
+      "name": "Olive"
+    },
+    {
+      "hex": "#8B0000",
+      "rgb": [
+        139,
+        0,
+        0
+      ],
+      "brightness": 0.163,
+      "name": "DarkRed"
+    },
+    {
+      "hex": "#663399",
+      "rgb": [
+        102,
+        51,
+        153
+      ],
+      "brightness": 0.305,
+      "name": "RebeccaPurple"
+    },
+    {
+      "hex": "#EE82EE",
+      "rgb": [
+        238,
+        130,
+        238
+      ],
+      "brightness": 0.685,
+      "name": "Violet"
+    },
+    {
+      "hex": "#8B4513",
+      "rgb": [
+        139,
+        69,
+        19
+      ],
+      "brightness": 0.33,
+      "name": "SaddleBrown"
+    },
+    {
+      "hex": "#8B008B",
+      "rgb": [
+        139,
+        0,
+        139
+      ],
+      "brightness": 0.225,
+      "name": "DarkMagenta"
+    },
+    {
+      "hex": "#228B22",
+      "rgb": [
+        34,
+        139,
+        34
+      ],
+      "brightness": 0.375,
+      "name": "ForestGreen"
+    },
+    {
+      "hex": "#6495ED",
+      "rgb": [
+        100,
+        149,
+        237
+      ],
+      "brightness": 0.566,
+      "name": "CornflowerBlue"
+    },
+    {
+      "hex": "#CD853F",
+      "rgb": [
+        205,
+        133,
+        63
+      ],
+      "brightness": 0.575,
+      "name": "Peru"
+    },
+    {
+      "hex": "#FAF0E6",
+      "rgb": [
+        250,
+        240,
+        230
+      ],
+      "brightness": 0.948,
+      "name": "Linen"
+    }
+  ],
+  "brightest": {
+    "hex": "#FAF0E6",
+    "rgb": [
+      250,
+      240,
+      230
+    ],
+    "brightness": 0.948,
+    "name": "Linen"
+  }
+}
