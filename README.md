@@ -82,7 +82,7 @@ The program will:
 
 ## Files
 
-- `color_analyzer.py`: Main program
+- `brightest_color_finder_final.py`: Main program
 - `color_cache.json`: Local color database
 - `color_results.json`: Analysis results
 
