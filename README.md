@@ -71,7 +71,7 @@ wget https://raw.githubusercontent.com/alperenuckun/brightest_color_finder/main/
 To run the program:
 
 ```bash
-python color_analyzer.py
+brightest_color_finder_final.py
 ```
 
 The program will:
