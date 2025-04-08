@@ -16,7 +16,7 @@ A Python program that analyzes random colors from a CSS Colors API, calculates t
 
 ---
 
-## 🖼Flowchart
+## Flowchart
 
 ![Flowchart](https://github.com/alperenuckun/brightest_color_finder/blob/main/algorithm_flowchart.svg)
 
