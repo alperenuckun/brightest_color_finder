@@ -33,7 +33,7 @@ It also gives you the name of that color using an online API.
 
 ## Algorithm Flowchart
 
-<img src="https://raw.githubusercontent.com/alperenuckun/brightest_color_finder/main/algorithm_flowchart.svg" width="800"/>
+<img src="https://raw.githubusercontent.com/alperenuckun/brightest_color_finder/main/algorithm_flowchart.svg" width="800"/> 
 
 ---
 
